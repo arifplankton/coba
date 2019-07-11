@@ -1,6 +1,6 @@
-#PULL/MERGER REQUEST
+# PULL/MERGER REQUEST
 
-##Langkah-langkahnya
+## Langkah-langkahnya
 
 Langkah Kolaborasi di Git
 
