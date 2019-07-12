@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-##coba
-=======
+## Buat Dockerfile
 
->>>>>>> c1a2d5f6738e9d88b2f68dd90a9adf2ae328cc37
+1. Kik pada setting, kemudian pilih collaboration disebelah kiri
+
+![Step-1](image/pert01.png) 
+
