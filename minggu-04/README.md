@@ -4,7 +4,8 @@
 Skenario yang paling umum untuk menghubungkan ke wadah adalah aplikasi yang menghubungkan ke penyimpanan data. 
 
 ### Mulai Penyimpanan Data
-Jalankan server redis dengan nama ramah redis-server yang akan kita sambungkan pada langkah berikutnya. Ini akan menjadi wadah sumber kami.
+Jalankan server redis dengan nama ramah redis-server yang akan kita sambungkan pada langkah berikutnya. Ini akan menjadi wadah sumber.
+
 ![Step-1](image/kont-01.png)
 
 ## Langkah 2 - Buat Tautan
@@ -17,6 +18,7 @@ Kedua, Docker akan memperbarui file HOSTS wadah dengan entri untuk wadah sumber 
 ![Step-3](image/kont-03.png)
 
 Dengan tautan yang dibuat, dapat melakukan ping wadah sumber dengan cara yang sama seolah-olah itu server yang berjalan di jaringan Anda.
+
 ![Step-4](image/kont-04.png)
 
 ## Langkah 3 - Sambungkan Ke Aplikasi
@@ -44,10 +46,12 @@ Untuk memulai, kami membuat jaringan dengan nama yang telah ditentukan sebelumny
 
 ### Sambungkan ke Jaringan
 Saat kami meluncurkan kontainer baru, dapat menggunakan atribut --net untuk menetapkan jaringan mana yang harus dihubungkan.
+
 ![Step-7](image/Net-02.png)
 
 ## Langkah 2 - Komunikasi Jaringan
 Tidak seperti menggunakan tautan, jaringan buruh pelabuhan berperilaku seperti jaringan tradisional tempat simpul dapat dilampirkan / dilepaskan.
+
 ![Step-8](image/Net-03.png)
 ![Step-9](image/Net-04.png)
 
@@ -72,7 +76,7 @@ Ketika kami meluncurkan server web, mengingat itu terlampir pada jaringan yang s
 Untuk mengujinya dengan `curl docker:3000`
 ![Step-15](image/Net-10.png)
 
-## angkah 4 - Buat Alias
+## Langkah 4 - Buat Alias
 Tautan masih didukung saat menggunakan jaringan buruh pelabuhan dan menyediakan cara untuk mendefinisikan Alias dengan nama wadah.
 
 ### Hubungkan Kontainer dengan Alias
