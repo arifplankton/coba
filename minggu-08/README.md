@@ -2,9 +2,11 @@
 
 Kita mulai kita perlu meluncurkan cluster Kubernetes.
 Jalankan perintah di bawah ini untuk memulai komponen kluster dan unduh Kubectl CLI.
+
 ![Step-1](image/kub-01.png)
 
-Tunggu sampai Node menjadi Siap dengan memeriksa
+Tunggu sampai Node menjadi Siap dengan memeriksa.
+
 ![Step-2](image/kub-02.png)
 
 ## Langkah 2 - Jalankan Kubectl
@@ -37,6 +39,7 @@ Gunakan perintah perintah untuk membuat layanan http kedua yang terbuka di port 
 ![Step-8](image/kub-8.png)
 
 mengaksesnya menggunakan
+
 ![Step-09](image/kub-09.png)
 ![Step-10](image/kub-10.png)
 
@@ -47,6 +50,7 @@ Untuk menemukan detail yang bisa di gunakan
 Dengan menjalankan penyebaran kami, kami sekarang dapat menggunakan kubectl untuk mengukur jumlah replika.
 
 Skala perintah kubectl memungkinkan kita untuk menyesuaikan jumlah Pods yang berjalan untuk pengendali penempatan atau replikasi tertentu.
+
 ![Step-12](image/kub-12.png)
 
 Mendaftar semua pod, Anda akan melihat tiga berjalan untuk penyebaran http
@@ -61,9 +65,10 @@ Setelah setiap Pod dimulai, ia akan ditambahkan ke layanan penyeimbang beban. De
 Salah satu objek Kubernetes yang paling umum adalah objek penyebaran.
 
 Salin definisi berikut ke editor.
+
 ![Step-15](image/kub-15.png)
 
-Ini digunakan untuk cluster dengan perintah
+Ini digunakan untuk cluster dengan perintah.
 ![Step-16](image/kub-16.png)
 
 Karena ini adalah objek Penerapan, daftar semua objek yang digunakan dapat diperoleh melalui
@@ -81,7 +86,8 @@ Menyebarkan Layanan dengan
 Seperti sebelumnya, detail semua objek Layanan yang digunakan dengan perintah `kubectl get svc`
 ![Step-20](image/kub-20.png)
 
-Dengan menjelaskan objek, Anda dapat menemukan detail lebih lanjut tentang konfigurasi dengan perintah `kubectl describe svc webapp-svc`
+Dengan menjelaskan objek, Anda dapat menemukan detail lebih lanjut tentang konfigurasi dengan perintah `kubectl describe svc webapp-svc`.
+
 ![Step-21](image/kub-21.png)
 ![Step-22](image/kub-22.png)
 
