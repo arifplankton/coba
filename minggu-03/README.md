@@ -13,7 +13,7 @@ COPY . /usr/share/nginx/html`
 
 Baris pertama mendefinisikan image dasar kita. Baris kedua menyalin konten direktori saat ini ke lokasi tertentu di dalam wadah.
 
-## Langkah 2 - Bangun image Docker
+## Langkah 2 - Bangun Image Docker
 
 Dockerfile digunakan oleh perintah pembangunan Docker CLI. Perintah build mengeksekusi setiap instruksi dalam Dockerfile. Hasilnya adalah image Docker bawaan yang dapat diluncurkan dan menjalankan aplikasi yang dikonfigurasi.
 
@@ -39,7 +39,7 @@ https://2886795303-80-ollie02.environments.katacoda.com/
 
 Anda sekarang memiliki situs web HTML statis yang dilayani oleh Nginx.
 
-## Langkah 1 - image Dasar
+## Langkah 1 - Image Dasar
 
 Semua image Docker dimulai dari image dasar.
 
@@ -66,7 +66,7 @@ Setelah menulis Dockerfile Anda, Anda perlu menggunakan buruh pelabuhan untuk me
 Untuk melihat image gunakan perintah `docker images`
 ![Step-6](image/pert16.png) 
 
-## angkah 6 - Meluncurkan image Baru
+## angkah 6 - Meluncurkan Image Baru
 Dengan image yang berhasil dibuat, Anda sekarang dapat meluncurkan wadah dengan cara yang sama seperti yang kami jelaskan dalam skenario pertama.
 
 Untuk mengakses server web yang diluncurkan melalui buruh pelabuhan nama host. Setelah meluncurkan wadah, perintahnya `curl -i http://docker`
@@ -75,7 +75,7 @@ Untuk mengakses server web yang diluncurkan melalui buruh pelabuhan nama host. S
 Untuk memeriksa wadah berjalan menggunakan menggunakan perintah `docker ps`
 ![Step-8](image/pert18.png) 
 
-## Langkah 1 - image Dasar
+## Langkah 1 - Image Dasar
 Seperti yang jelaskan dalam skenario sebelumnya, semua image dimulai dengan image dasar, idealnya sedekat mungkin dengan konfigurasi yang di inginkan. Node.js memiliki image pre-built yang tersedia dengan tag untuk setiap versi yang dirilis.
 
 ## angkah 2 - Instal NPM
